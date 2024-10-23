@@ -1,7 +1,9 @@
 .link{
     color: aliceblue;
     text-decoration: none;
-    padding: 0 40px;
+    padding: 0 16px;
+    border-radius: 8px;
+
 }
 
 .link:hover{

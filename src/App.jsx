@@ -56,6 +56,10 @@ function App() {
       <div id="wrapper">
         <HeaderContent/>
         <BodyContent/>
+        <BodyContent>
+          <h3>Another Body Content</h3>
+          <button>Enter</button>
+        </BodyContent>
         <FooterContent/>
 
       </div>
