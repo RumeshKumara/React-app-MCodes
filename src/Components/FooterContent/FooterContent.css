@@ -2,4 +2,6 @@
 #footercontent{
     min-height: 20vh;
     background-color: rgb(67, 38, 95);
+    text-align: center;
+
 }

@@ -1,10 +1,20 @@
 // import React from 'react'
 import './HeaderContent.css'
+import logo from '../../assets/react.svg'
+import MenuLink from '../MenuLink/MenuLink'
 
 function HeaderContent() {
   return (
     <div id="navcontent">
-        <h3>Header Content</h3>
+      <a href="https://github.com/RumeshKumara?tab=repositories">
+        <img src={logo} alt="React" />
+      </a>
+      <div>
+        <MenuLink linkname="Home" url="#home" />
+        <MenuLink linkname="About" url="#about"/>
+        <MenuLink linkname="Contact" url="#contact"/>
+        <MenuLink linkname="Login" url="#login"/>
+      </div>
     </div>
   )
 }
