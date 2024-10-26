@@ -8,6 +8,7 @@ function HeaderContent() {
     <div id="navcontent">
       <a href="https://github.com/RumeshKumara?tab=repositories">
         <img src={logo} alt="React" />
+        <img src="vite.svg" alt="" />
       </a>
       <div>
         <MenuLink linkname="Home" url="#home" />

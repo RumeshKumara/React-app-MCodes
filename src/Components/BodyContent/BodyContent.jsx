@@ -5,6 +5,8 @@ function BodyContent(props) {
   return (
     <div id="bodycontent">
        <p>Main Content</p> 
+       <img src="vite.svg" alt="" />
+
        {props.children}
     </div>
   )
