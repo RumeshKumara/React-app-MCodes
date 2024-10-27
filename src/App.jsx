@@ -57,7 +57,7 @@ function App() {
         <HeaderContent/>
         <BodyContent/>
         
-        <FooterContent/>
+        {/* <FooterContent/> */}
 
       </div>
     </>

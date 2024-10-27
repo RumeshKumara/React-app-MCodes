@@ -1,6 +1,7 @@
 
 #bodycontent{
-    min-height: 72vh;
+    min-height: 92vh;
     background-color: rgb(140, 93, 183);
     text-align: center;
+    padding-top: 20rem;
 }
