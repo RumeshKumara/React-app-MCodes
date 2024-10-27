@@ -1,5 +1,5 @@
 import BodyContent from "./Components/BodyContent/BodyContent"
-import FooterContent from "./Components/FooterContent/FooterContent"
+// import FooterContent from "./Components/FooterContent/FooterContent"
 import HeaderContent from "./Components/HeaderContent/HeaderContent"
 
 function App() {
@@ -55,7 +55,9 @@ function App() {
       </div> */}
       <div id="wrapper">
         <HeaderContent/>
-        <BodyContent/>
+        <BodyContent>
+          <h2>Home page</h2>
+        </BodyContent>
         
         {/* <FooterContent/> */}
 
